@@ -4,6 +4,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .logo a img{
     width: 120px;
@@ -35,4 +36,9 @@ h1{
 .top-bannar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
