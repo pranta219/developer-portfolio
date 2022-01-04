@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-section{
+.container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -41,4 +41,30 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.sadow{
+    box-shadow: 10px 10px 10px rgb(83, 83, 83);
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.second{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev{
+    border-image: linear-gradient(#2f00af, #61e7ff);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#full-stack{
+    border-image: linear-gradient( #800080, #ecf756);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
 }
